@@ -11,6 +11,7 @@ $mail->SMTPDebug  = 2;                     // enables SMTP debug information (fo
                                            // 2 = messages only
 $mail->SMTPAuth   = false;                  // enable SMTP authentication
 $mail->Host       = "10.230.80.51"; // sets the SMTP server
+$mail->SMTPSecure = 'tls'
 //$mail->Username   = "yourname@yourdomain"; // SMTP account username
 //$mail->Password   = "yourpassword";        // SMTP account password
 
