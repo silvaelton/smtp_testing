@@ -5,13 +5,12 @@ require_once('PHPMailer/PHPMailerAutoload.php');
 $mail             = new PHPMailer();
 
 $mail->IsSMTP(); // telling the class to use SMTP
-$mail->Host       = "10.72.31.48"; // SMTP server
+$mail->Host       = "10.230.80.51"; // SMTP server
 $mail->SMTPDebug  = 2;                     // enables SMTP debug information (for testing)
                                            // 1 = errors and messages
                                            // 2 = messages only
 $mail->SMTPAuth   = false;                  // enable SMTP authentication
-$mail->Host       = "10.72.31.48"; // sets the SMTP server
-$mail->Port       = 25;                    // set the SMTP port for the GMAIL server
+$mail->Host       = "10.230.80.51"; // sets the SMTP server
 //$mail->Username   = "yourname@yourdomain"; // SMTP account username
 //$mail->Password   = "yourpassword";        // SMTP account password
 
